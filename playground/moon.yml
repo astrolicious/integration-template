@@ -1,0 +1,17 @@
+# type: 'tool'
+# language: 'typescript'
+
+# project:
+#   name: 'moon'
+#   description: 'A repo management tool.'
+#   channel: '#moon'
+#   owner: 'infra.platform'
+#   maintainers: ['miles.johnson']
+
+# tasks:
+#   build:
+#     command: 'vite dev'
+#     inputs:
+#       - 'src/**/*'
+#     outputs:
+#       - 'dist'

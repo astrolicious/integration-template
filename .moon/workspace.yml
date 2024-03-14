@@ -1,0 +1,62 @@
+# https://moonrepo.dev/docs/config/workspace#projects
+projects:
+  package: 'package'
+  playground: 'playground'
+
+# https://moonrepo.dev/docs/config/workspace#codeowners
+# codeowners:
+
+# https://moonrepo.dev/docs/config/workspace#constraints
+constraints:
+  # https://moonrepo.dev/docs/config/workspace#enforceprojecttyperelationships
+  enforceProjectTypeRelationships: true
+
+# https://moonrepo.dev/docs/config/workspace#experiments
+experiments:
+  strictProjectAliases: true
+
+# https://moonrepo.dev/docs/config/workspace#extensions
+# extensions:
+  
+# https://moonrepo.dev/docs/config/workspace#generator
+# generator:
+
+# https://moonrepo.dev/docs/config/workspace#hasher
+# hasher:
+
+# https://moonrepo.dev/docs/config/workspace#notifier
+# notifier:
+
+# https://moonrepo.dev/docs/config/workspace#runner
+runner:
+  cacheLifetime: "7 days"
+  inheritColorsForPipedTasks: true
+  logRunningCommand: true
+
+# https://moonrepo.dev/docs/config/workspace#telemetry
+telemetry: true
+
+# https://moonrepo.dev/docs/config/workspace#vcs
+vcs:
+  # https://moonrepo.dev/docs/config/workspace#defaultbranch
+  defaultBranch: 'main'
+
+  # https://moonrepo.dev/docs/config/workspace#hooks
+  # hooks:
+
+  # https://moonrepo.dev/docs/config/workspace#synchooks
+  # syncHooks: 
+
+  # https://moonrepo.dev/docs/config/workspace#manager
+  manager: 'git'
+
+  # https://moonrepo.dev/docs/config/workspace#provider
+  provider: 'github'
+
+  # https://moonrepo.dev/docs/config/workspace#remotecandidates
+  remoteCandidates:
+    - 'origin'
+    - 'upstream'
+
+# https://moonrepo.dev/docs/config/workspace#versionconstraint
+versionConstraint: '>=1.22.0'
